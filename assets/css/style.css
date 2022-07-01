@@ -34,7 +34,7 @@ h5{
     color: #F2F2F2;
     font-family: 'Nunito Sans', sans-serif;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 20px;
 }
 .nav-item{
@@ -67,3 +67,11 @@ iframe{
     border-color: #F28B50;
     width: 80%;
 }
+@media(min-width:1200px){
+    iframe{
+        height: 350px;
+    }
+    #mail_newsletter{
+        width: 30%;
+    }
+}	

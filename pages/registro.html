@@ -64,7 +64,33 @@
           </div>
       </nav>
       <!-- End Navbar principal menu -->
-      <main></main>
+      <main class="container-fluid d-flex flex-column justify-content-center align-items-center">
+        <h1>Registrarse</h1>
+        <form class="my-5" action="">
+          <div class="mb-3">
+            <label for="exampleNombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="exampleNombre" aria-describedby="emailHelp" required>
+            <div id="emailHelp" class="form-text"></div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleApellido" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="exampleApellido" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+            <div id="emailHelp" class="form-text"></div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" required>
+          </div>
+          <div>
+            <button type="submit" class="btn btn-primary">ingresar</button>
+            <button type="reset" class="btn btn-warning">Limpiar</button>
+          </div>
+        </form>
+      </main>
       <footer class="container-fluid d-flex flex-column">
         <div class="newsletter_redes">
           <div id="newsletter">
